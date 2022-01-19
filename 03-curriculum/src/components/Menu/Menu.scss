@@ -1,0 +1,25 @@
+.menu {
+  position: relative;
+  z-index: 10;
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    li {
+      margin: 30px 20px;
+      font-weight: bold;
+      a {
+        color: #fff;
+        &:hover {
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -ms-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          color: #0098d3;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
